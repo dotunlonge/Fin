@@ -1,21 +1,55 @@
 {
   "name": "fin",
   "version": "1.0.0",
+  "description": "A beautiful mobile app for currency/crypto conversion and calculations with real-time rates",
   "main": "index.ts",
+  "keywords": [
+    "react-native",
+    "expo",
+    "currency",
+    "crypto",
+    "converter",
+    "calculator",
+    "typescript",
+    "zustand"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/Fin.git"
+  },
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "@expo/vector-icons": "^15.0.3",
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@react-navigation/bottom-tabs": "^7.8.7",
+    "@react-navigation/native": "^7.1.22",
+    "axios": "^1.13.2",
     "expo": "~54.0.25",
+    "expo-haptics": "^15.0.7",
+    "expo-linear-gradient": "^15.0.7",
+    "expo-network": "^8.0.7",
+    "expo-screen-orientation": "^9.0.7",
     "expo-status-bar": "~3.0.8",
     "react": "19.1.0",
-    "react-native": "0.81.5"
+    "react-native": "0.81.5",
+    "react-native-gesture-handler": "~2.28.0",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-reanimated": "^4.1.5",
+    "react-native-safe-area-context": "^5.6.2",
+    "react-native-screens": "~4.16.0",
+    "zustand": "^5.0.8"
   },
   "devDependencies": {
     "@types/react": "~19.1.0",
+    "babel-preset-expo": "^54.0.7",
     "typescript": "~5.9.2"
   },
   "private": true
